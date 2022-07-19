@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import "./App.less";
+import Header from "./Components/Headers/Header";
 
 function App() {
-  return <div>Freakxgames</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
